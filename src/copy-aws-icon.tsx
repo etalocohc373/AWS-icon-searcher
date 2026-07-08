@@ -63,7 +63,7 @@ export default function Command() {
 }
 
 function IconItem({ entry }: { entry: IconEntry }) {
-  const png = entry.png[0]; // largest PNG (retina @5x where available)
+  const png = entry.png.find((v) => v.label === "64") ?? entry.png[0]; // 64px by default, else largest available
   const svg = entry.svg[0]; // largest SVG
 
   const accessories: List.Item.Accessory[] = [{ tag: entry.groupLabel }];

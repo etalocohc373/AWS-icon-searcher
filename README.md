@@ -54,7 +54,7 @@ Raycast で Manage Extensions → Actions → Uninstall Local Extension
 
 | アクション | 説明 |
 | --- | --- |
-| Copy PNG | 最大サイズの PNG をクリップボードにコピー（デフォルト・⏎） |
+| Copy PNG | 64px（無ければ最大サイズ）の PNG をクリップボードにコピー（デフォルト・⏎） |
 | Copy SVG | SVG をクリップボードにコピー |
 | Paste PNG | 最前面のアプリに PNG を貼り付け |
 | Copy PNG / SVG as Size… | サイズを指定してコピー |
