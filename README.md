@@ -69,6 +69,4 @@ Raycast で Manage Extensions → Actions → Uninstall Local Extension
 
 ## 注意事項
 
-**本拡張機能は AWS の公式製品ではありません。** アイコンの利用にあたっては、AWS の
-  [Architecture Icons の利用条件](https://aws.amazon.com/architecture/icons/)および
-  [商標ガイドライン](https://aws.amazon.com/trademark-guidelines/)に従ってください。
+**本拡張機能は AWS の公式製品ではありません。** アイコンの利用にあたっては、AWS の[商標ガイドライン](https://aws.amazon.com/trademark-guidelines/)に従ってください。
