@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# Raycast specific files
+raycast-env.d.ts
+.raycast-swift-build
+.swiftpm
+compiled_raycast_swift
+compiled_raycast_rust
+
+# misc
+.DS_Store
+
+# --- AWS アイコン関連（ライセンス上、リポジトリに含めない）---
+# AWS のアイコン資産は再配布を避けるため追跡しない。
+# 利用者は各自 AWS からアセットパッケージを DL し、`npm run generate-icons` で生成する。
+
+# AWS 公式アセットパッケージの生ダウンロード
+Asset-Package_*/
+# 生成された同梱アイコン（AWS の著作物）
+/assets/icons/
+# 生成されたマニフェスト（AWS アイコン由来）
+/src/icons.json

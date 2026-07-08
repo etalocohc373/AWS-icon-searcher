@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(npm *)",
+      "WebSearch",
+      "WebFetch(domain:aws.amazon.com)"
+    ]
+  }
+}
