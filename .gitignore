@@ -12,6 +12,8 @@ compiled_raycast_rust
 
 # misc
 .DS_Store
+/.claude
+.prettierrc
 
 # --- AWS アイコン関連（ライセンス上、リポジトリに含めない）---
 # AWS のアイコン資産は再配布を避けるため追跡しない。
