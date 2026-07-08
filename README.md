@@ -1,6 +1,6 @@
 # AWS Icon Searcher
 
-AWS アーキテクチャアイコンを Raycast から検索して、PNG（デフォルト）または SVG でクリップボードにコピーできる拡張機能です。
+AWS アーキテクチャアイコンを Raycast から検索し、PNG（デフォルト）または SVG でクリップボードにコピーできる拡張機能です。
 
 ## 前提条件
 
@@ -22,7 +22,7 @@ cd aws-icon
 ### 2. AWS 公式アイコンをダウンロード
 
 1. [AWS アーキテクチャアイコン](https://aws.amazon.com/jp/architecture/icons/) からアイコンパッケージをダウンロード
-2. 解凍してできた `Asset-Package_*` という名前のフォルダを、**リポジトリ直下**に配置
+2. 解凍してできた `Asset-Package_*` という名前のフォルダを **リポジトリ直下** に配置
 
 > 2026/7/8 時点で配布されている最新の AWS アセットパッケージでのみ動作確認しています。
 
@@ -43,11 +43,12 @@ npm run dev
 ```
 
 Raycast のルート検索に **「Search AWS Icons」** が追加されます。
-追加後は、コマンドを停止しても拡張機能は Raycast に残ります。
+
+なお、追加後はコマンドを停止しても拡張機能は残ります。
 
 ### 削除方法
 
-Raycast で「Manage Extensions」（拡張機能の管理）を開き、AWS Icons を削除します。
+Raycast で Manage Extensions → Actions → Uninstall Local Extension
 
 ## アクション
 
