@@ -1,15 +1,6 @@
 # AWS Icon Searcher
 
-AWS 公式の **AWS アーキテクチャアイコン** を Raycast から検索して、**PNG**（デフォルト）または **SVG** でコピーできる拡張機能です。
-
-## 特徴
-
-- 🔍 サービス名・リソース名・カテゴリ名で約 870 アイコンをあいまい検索
-- 🗂️ グループで絞り込み: Architecture · Service / Resource / Category / Architecture · Group
-- 📋 アイコンファイルをクリップボードにコピー — Slack・Figma・Keynote・ドキュメント等にそのまま貼り付け可能
-- 🖼️ **デフォルトは PNG**（利用可能な最大解像度。retina `@5x` を含む）
-- 🎨 **SVG** と各サイズ（16 / 32 / 48 / 64px …）をアクションパネルから個別に選択可能
-- 🌗 リソースアイコンの Light / Dark バリアントに対応
+AWS アーキテクチャアイコンを Raycast から検索して、PNG（デフォルト）または SVG でクリップボードにコピーできる拡張機能です。
 
 ## 前提条件
 
@@ -17,13 +8,14 @@ AWS 公式の **AWS アーキテクチャアイコン** を Raycast から検索
   - 開発モード使用のためサインイン必須
 - Node.js 22.14 以上
 - npm 7 以上
+- macOS にて動作確認
 
 ## インストール（ビルドして Raycast に導入）
 
 ### 1. リポジトリを取得
 
 ```bash
-git clone <このリポジトリの URL>
+git clone git@github.com:etalocohc373/AWS-icon-searcher.git
 cd aws-icon
 ```
 
